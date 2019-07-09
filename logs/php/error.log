@@ -1,0 +1,92 @@
+[25-Jun-2019 01:47:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/SynopsisValidator.php on line 92
+[25-Jun-2019 17:50:29 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/allenmarkbrown/index.php on line 11
+[26-Jun-2019 01:32:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/allenmarkbrown/functions.php on line 5
+[26-Jun-2019 21:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enueue_script() in /app/public/wp-content/themes/allenmarkbrown/functions.php:5
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): markbrown_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /app/public/wp-content/themes/allenmarkbrown/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-incl in /app/public/wp-content/themes/allenmarkbrown/functions.php on line 5
+[29-Jun-2019 13:10:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/allenmarkbrown/page.php on line 26
+[30-Jun-2019 11:04:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_get_the_title() in /app/public/wp-content/themes/allenmarkbrown/page.php:26
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/page.php on line 26
+[07-Jul-2019 11:31:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/allenmarkbrown/page.php on line 39
+[07-Jul-2019 11:52:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lagnuage_attributes() in /app/public/wp-content/themes/allenmarkbrown/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/allenmarkbrown/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
+[07-Jul-2019 11:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lagnuage_attributes() in /app/public/wp-content/themes/allenmarkbrown/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/allenmarkbrown/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
+[07-Jul-2019 11:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lagnuage_attributes() in /app/public/wp-content/themes/allenmarkbrown/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/allenmarkbrown/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
+[07-Jul-2019 11:58:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lagnuage_attributes() in /app/public/wp-content/themes/allenmarkbrown/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/allenmarkbrown/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
+[07-Jul-2019 11:59:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lagnuage_attributes() in /app/public/wp-content/themes/allenmarkbrown/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/allenmarkbrown/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
+[07-Jul-2019 11:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lagnuage_attributes() in /app/public/wp-content/themes/allenmarkbrown/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/allenmarkbrown/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
