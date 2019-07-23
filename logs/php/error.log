@@ -90,3 +90,20 @@ Stack trace:
 #6 /app/public/index.php(17): require('/app/public/wp-...')
 #7 {main}
   thrown in /app/public/wp-content/themes/allenmarkbrown/header.php on line 2
+[10-Jul-2019 01:40:56 UTC] WordPress database error Server shutdown in progress for query UPDATE `wp_options` SET `option_value` = 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1562722856;s:7:\"checked\";a:1:{s:8:\"cannabis\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', `autoload` = 'no' WHERE `option_name` = '_site_transient_update_themes' made by do_action_ref_array('wp_version_check'), WP_Hook->do_action, WP_Hook->apply_filters, wp_version_check, do_action('wp_maybe_auto_update'), WP_Hook->do_action, WP_Hook->apply_filters, wp_maybe_auto_update, WP_Automatic_Updater->run, wp_update_themes, set_site_transient, update_site_option, update_network_option, update_option
+[10-Jul-2019 01:40:56 UTC] PHP Warning:  Error while sending QUERY packet. PID=41 in /app/public/wp-includes/wp-db.php on line 2007
+[12-Jul-2019 11:39:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/cannabis/index.php on line 33
+[12-Jul-2019 12:20:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_catagory_list() in /app/public/wp-content/themes/cannabis/index.php:26
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/cannabis/index.php on line 26
+[21-Jul-2019 15:04:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_peremalink() in /app/public/wp-content/themes/cannabis/front-page.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/cannabis/front-page.php on line 60
